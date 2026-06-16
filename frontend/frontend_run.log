@@ -1,0 +1,311 @@
+
+> insightx-ai-frontend@1.0.0 dev
+> next dev --port 3000
+
+   ▲ Next.js 15.1.3
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.24:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1393ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.9s (1730 modules)
+ GET / 200 in 4189ms
+ ✓ Compiled in 199ms (850 modules)
+ GET / 200 in 38ms
+ ○ Compiling /auth ...
+ ✓ Compiled /auth in 989ms (2022 modules)
+ GET /auth 200 in 1199ms
+ ✓ Compiled /dashboard in 414ms (2173 modules)
+ GET /dashboard 200 in 570ms
+ ✓ Compiled /investigations in 218ms (2184 modules)
+ GET /investigations 200 in 303ms
+ ✓ Compiled /evidence in 313ms (2195 modules)
+ GET /evidence 200 in 393ms
+ ✓ Compiled /chat in 341ms (2208 modules)
+ GET /chat 200 in 440ms
+ ✓ Compiled /reports in 247ms (2225 modules)
+ GET /reports 200 in 321ms
+ ○ Compiling /settings ...
+ ✓ Compiled /settings in 510ms (2236 modules)
+ GET /settings 200 in 585ms
+ ✓ Compiled /timeline in 286ms (2245 modules)
+ GET /timeline 200 in 377ms
+ GET / 200 in 91ms
+ GET / 200 in 37ms
+ GET /auth 200 in 11ms
+ GET /dashboard 200 in 14ms
+ GET /dashboard 200 in 9ms
+ GET /investigations 200 in 11ms
+ GET /evidence 200 in 11ms
+ GET /timeline 200 in 7ms
+ GET /chat 200 in 11ms
+ GET /timeline 200 in 6ms
+ GET /reports 200 in 10ms
+ GET /settings 200 in 10ms
+ GET /dashboard 200 in 7ms
+ GET /evidence 200 in 6ms
+ GET /investigations 200 in 7ms
+ GET /evidence 200 in 7ms
+ GET /investigations 200 in 8ms
+ GET /dashboard 200 in 8ms
+ GET /investigations 200 in 7ms
+ GET /evidence 200 in 8ms
+ GET /investigations 200 in 7ms
+ ○ Compiling /investigations/[id] ...
+ ✓ Compiled /investigations/[id] in 915ms (2175 modules)
+ GET /investigations/3c22e7f3-87ec-44dc-9854-11a0e8120729 200 in 1336ms
+ GET /investigations/3c22e7f3-87ec-44dc-9854-11a0e8120729 200 in 11ms
+ ✓ Compiled /chat in 189ms (1103 modules)
+ GET /chat?investigation=3c22e7f3-87ec-44dc-9854-11a0e8120729 200 in 238ms
+ GET /dashboard 200 in 15ms
+ GET /investigations/3c22e7f3-87ec-44dc-9854-11a0e8120729 200 in 17ms
+ GET /investigations 200 in 10ms
+ GET /settings 200 in 9ms
+ ✓ Compiled /reports in 179ms (1113 modules)
+ GET /reports 200 in 213ms
+ GET /chat 200 in 8ms
+ GET /reports 200 in 6ms
+ ✓ Compiled / in 308ms (1201 modules)
+ GET / 200 in 514ms
+ ✓ Compiled /auth in 178ms (1213 modules)
+ GET /auth 200 in 365ms
+ GET /evidence 200 in 12ms
+ GET /auth?mode=register 200 in 13ms
+ GET /dashboard 200 in 36ms
+ GET /investigations 200 in 15ms
+ GET /evidence 200 in 10ms
+ GET /chat 200 in 16ms
+ GET /reports 200 in 12ms
+ GET /settings 200 in 15ms
+ ✓ Compiled /timeline in 339ms (1219 modules)
+ GET /timeline 200 in 469ms
+ GET /investigations 200 in 9ms
+ GET /evidence 200 in 9ms
+ GET /investigations 200 in 8ms
+ GET /investigations/3c22e7f3-87ec-44dc-9854-11a0e8120729 200 in 12ms
+ GET /evidence 200 in 6ms
+ GET /evidence 200 in 17ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 586ms (2168 modules)
+ GET /_next/static/css/app/layout.css?v=1781627906846 404 in 723ms
+ GET /_next/static/chunks/app/layout.js 404 in 640ms
+ GET /_next/static/chunks/webpack.js?v=1781627906846 404 in 737ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 643ms
+ GET /_next/static/chunks/main-app.js?v=1781627906846 404 in 643ms
+ GET /_next/static/chunks/app/(dashboard)/layout.js 404 in 641ms
+ GET /_next/static/chunks/app/(dashboard)/evidence/page.js 404 in 14ms
+ ✓ Compiled / in 161ms (1188 modules)
+ GET / 200 in 344ms
+ GET /_next/static/css/app/layout.css?v=1781627926115 404 in 10ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 21ms
+ GET /_next/static/chunks/main-app.js?v=1781627926115 404 in 22ms
+ GET /_next/static/chunks/app/layout.js 404 in 21ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 21ms
+ GET / 200 in 28ms
+ GET /_next/static/css/app/layout.css?v=1781627930278 404 in 22ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 33ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 32ms
+ GET /_next/static/chunks/main-app.js?v=1781627930278 404 in 33ms
+ GET /_next/static/chunks/app/layout.js 404 in 32ms
+ GET /_next/static/css/app/layout.css?v=1781627930278 404 in 9ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 8ms
+ GET / 200 in 36ms
+ GET /_next/static/css/app/layout.css?v=1781628025207 404 in 11ms
+ GET /_next/static/chunks/main-app.js?v=1781628025207 404 in 24ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 21ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 21ms
+ GET /_next/static/chunks/app/layout.js 404 in 21ms
+ GET / 200 in 31ms
+ GET /_next/static/css/app/layout.css?v=1781628026408 404 in 21ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 28ms
+ GET /_next/static/chunks/main-app.js?v=1781628026408 404 in 28ms
+ GET /_next/static/chunks/app/layout.js 404 in 27ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 28ms
+ GET / 200 in 23ms
+ GET /_next/static/css/app/layout.css?v=1781628026715 404 in 27ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 33ms
+ GET /_next/static/chunks/main-app.js?v=1781628026715 404 in 33ms
+ GET /_next/static/chunks/app/layout.js 404 in 32ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 32ms
+ GET / 200 in 27ms
+ GET /_next/static/css/app/layout.css?v=1781628219713 404 in 18ms
+ GET /_next/static/chunks/webpack.js?v=1781628219713 404 in 45ms
+ GET /_next/static/chunks/main-app.js?v=1781628219713 404 in 28ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 27ms
+ GET /_next/static/chunks/app/layout.js 404 in 27ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 28ms
+ GET / 200 in 24ms
+ GET /_next/static/css/app/layout.css?v=1781628222081 404 in 29ms
+ GET /_next/static/chunks/webpack.js?v=1781628222081 404 in 33ms
+ GET /_next/static/chunks/main-app.js?v=1781628222081 404 in 32ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 32ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 31ms
+ GET /_next/static/chunks/app/layout.js 404 in 31ms
+ GET / 200 in 26ms
+ GET /_next/static/css/app/layout.css?v=1781628228665 404 in 11ms
+ GET /_next/static/chunks/webpack.js?v=1781628228665 404 in 29ms
+ GET /_next/static/chunks/main-app.js?v=1781628228665 404 in 27ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 27ms
+ GET /_next/static/chunks/app/layout.js 404 in 26ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 27ms
+ ⨯ ./src/components/layout/Providers.tsx
+Error:   [31mx[0m Unexpected token `ThemeProvider`. Expected jsx identifier
+    ,-[[36;1;4mF:\working\GenAI Final Project\insightx-ai\frontend\src\components\layout\Providers.tsx[0m:22:1]
+ [2m19[0m |   );
+ [2m20[0m | 
+ [2m21[0m |   return (
+ [2m22[0m |     <ThemeProvider
+    : [35;1m     ^^^^^^^^^^^^^[0m
+ [2m23[0m |       attribute="class"
+ [2m24[0m |       defaultTheme="light"
+ [2m25[0m |       enableSystem
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/layout/Providers.tsx
+./src/app/layout.tsx
+ ✓ Compiled in 399ms (2176 modules)
+ ✓ Compiled in 196ms (1078 modules)
+ ✓ Compiled in 495ms (1078 modules)
+ ✓ Compiled in 223ms (1078 modules)
+ ✓ Compiled in 214ms (1078 modules)
+ ✓ Compiled in 434ms (2176 modules)
+ ✓ Compiled in 343ms (2176 modules)
+ ✓ Compiled in 318ms (2176 modules)
+ ✓ Compiled in 312ms (2176 modules)
+ ✓ Compiled in 320ms (2176 modules)
+ ✓ Compiled in 313ms (2176 modules)
+ ✓ Compiled in 324ms (2176 modules)
+ ✓ Compiled in 329ms (2176 modules)
+ ✓ Compiled in 368ms (2176 modules)
+ ✓ Compiled in 335ms (2176 modules)
+ ✓ Compiled in 342ms (2176 modules)
+ ✓ Compiled in 307ms (2176 modules)
+ ✓ Compiled in 544ms (2176 modules)
+ ✓ Compiled in 324ms (2176 modules)
+ ✓ Compiled in 527ms (2176 modules)
+ ✓ Compiled in 222ms (1078 modules)
+ ✓ Compiled in 233ms (1078 modules)
+ ✓ Compiled in 250ms (1078 modules)
+ ✓ Compiled in 216ms (1078 modules)
+ ✓ Compiled in 224ms (1078 modules)
+ ✓ Compiled in 223ms (1078 modules)
+ ✓ Compiled in 231ms (1078 modules)
+ ✓ Compiled in 209ms (1078 modules)
+ ✓ Compiled in 212ms (1078 modules)
+ ✓ Compiled in 257ms (1078 modules)
+ ✓ Compiled in 215ms (1078 modules)
+ ✓ Compiled in 208ms (1078 modules)
+ ✓ Compiled in 211ms (1078 modules)
+ ✓ Compiled in 243ms (1078 modules)
+ ✓ Compiled in 273ms (1078 modules)
+ ✓ Compiled in 1042ms (2177 modules)
+ ✓ Compiled in 434ms (2177 modules)
+ ✓ Compiled in 432ms (2177 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 961ms (2270 modules)
+ GET / 200 in 1225ms
+ ✓ Compiled /_not-found in 414ms (2260 modules)
+ GET /_next/static/chunks/app-pages-internals.js 404 in 578ms
+ GET /_next/static/chunks/main-app.js?v=1781628825110 404 in 579ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 578ms
+ ✓ Compiled in 790ms (2274 modules)
+ ✓ Compiled in 503ms (2274 modules)
+ GET / 200 in 184ms
+ GET /_next/static/chunks/main-app.js?v=1781628832192 404 in 28ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 26ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 25ms
+ ✓ Compiled in 440ms (2274 modules)
+ ✓ Compiled in 491ms (2274 modules)
+ GET / 200 in 74ms
+ GET /_next/static/chunks/main-app.js?v=1781628845353 404 in 35ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 33ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 30ms
+ GET / 200 in 33ms
+ GET /_next/static/chunks/main-app.js?v=1781628846040 404 in 22ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 23ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 12ms
+ ✓ Compiled in 411ms (2274 modules)
+ ✓ Compiled in 520ms (2274 modules)
+ ✓ Compiled in 446ms (2274 modules)
+ ✓ Compiled in 424ms (2274 modules)
+ ✓ Compiled in 372ms (2274 modules)
+ ✓ Compiled in 386ms (2274 modules)
+ ✓ Compiled in 394ms (2274 modules)
+ GET / 200 in 89ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 28ms
+ GET /_next/static/chunks/main-app.js?v=1781628877241 404 in 29ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 13ms
+ ✓ Compiled in 402ms (2274 modules)
+ ✓ Compiled in 409ms (2274 modules)
+ ✓ Compiled in 374ms (2274 modules)
+ ✓ Compiled in 1148ms (2274 modules)
+ ✓ Compiled in 809ms (2274 modules)
+ ✓ Compiled in 476ms (2274 modules)
+ GET / 200 in 174ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 24ms
+ GET /_next/static/chunks/main-app.js?v=1781628978571 404 in 24ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 23ms
+ GET / 200 in 36ms
+ GET / 200 in 30ms
+ GET / 200 in 35ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 21ms
+ GET /_next/static/chunks/main-app.js?v=1781629083909 404 in 23ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 23ms
+ GET / 200 in 31ms
+ GET /_next/static/chunks/main-app.js?v=1781629086289 404 in 21ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 16ms
+ GET /_next/static/chunks/app/(marketing)/page.js 404 in 15ms
+ ✓ Compiled in 479ms (1081 modules)
+ ✓ Compiled in 276ms (1081 modules)
+ ✓ Compiled in 265ms (1081 modules)
+ ✓ Compiled in 234ms (1081 modules)
+ ✓ Compiled in 252ms (1081 modules)
+ ✓ Compiled in 242ms (1081 modules)
+ ⨯ ./src/app/(dashboard)/investigations/[id]/page.tsx
+Error:   [31mx[0m The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+    ,-[[36;1;4mF:\working\GenAI Final Project\insightx-ai\frontend\src\app\(dashboard)\investigations\[id]\page.tsx[0m:18:1]
+ [2m15[0m | import type { Investigation, Evidence, AnalysisResult } from "@/types";
+ [2m16[0m | import toast from "react-hot-toast";
+ [2m17[0m | 
+ [2m18[0m | "use client";
+    : [35;1m^^^^^^^^^^^^^[0m
+ [2m19[0m | 
+ [2m20[0m | import { useState, useCallback } from "react";
+ [2m21[0m | import { useDropzone } from "react-dropzone";
+    `----
+
+Import trace for requested module:
+./src/app/(dashboard)/investigations/[id]/page.tsx
+ ✓ Compiled in 1199ms (2173 modules)
+ ✓ Compiled in 756ms (2187 modules)
+ ✓ Compiled in 538ms (2194 modules)
+ ✓ Compiled in 4.9s (3234 modules)
+ ✓ Compiled in 2.3s (2201 modules)
+ ✓ Compiled in 952ms (3241 modules)
+ ✓ Compiled in 311ms (1611 modules)
+ ✓ Compiled in 752ms (3241 modules)
+ ✓ Compiled in 434ms (3241 modules)
+ ✓ Compiled in 441ms (3241 modules)
+ ✓ Compiled in 436ms (1611 modules)
+ ✓ Compiled in 312ms (1611 modules)
+ ✓ Compiled in 310ms (1611 modules)
+ ✓ Compiled in 365ms (1611 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 1748ms (3353 modules)
+ GET / 200 in 1951ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 568ms (3343 modules)
+ GET /_next/static/chunks/app-pages-internals.js 404 in 732ms
+ GET /_next/static/chunks/app/(marketing)/layout.js 404 in 731ms
+ GET /_next/static/chunks/main-app.js?v=1781629462918 404 in 733ms
+ GET / 200 in 113ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 22ms
+ GET /_next/static/chunks/main-app.js?v=1781629494377 404 in 22ms
+ GET /_next/static/chunks/app/(marketing)/layout.js 404 in 21ms
+[?25h
