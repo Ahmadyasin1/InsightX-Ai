@@ -1,0 +1,467 @@
+INFO:     Will watch for changes in these directories: ['F:\\working\\GenAI Final Project\\insightx-ai\\backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [36808] using WatchFiles
+INFO:     Started server process [35084]
+INFO:     Waiting for application startup.
+2026-06-16 21:32:13,361 | INFO     | main | Starting InsightX AI v1.0.0
+2026-06-16 21:32:13,362 | DEBUG    | aiosqlite | executing <function connect.<locals>.connector at 0x000002512FD9D3A0>
+2026-06-16 21:32:13,362 | DEBUG    | aiosqlite | operation <function connect.<locals>.connector at 0x000002512FD9D3A0> completed
+2026-06-16 21:32:13,362 | DEBUG    | aiosqlite | executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002512FDD98A0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000002512FB1B7E0>, deterministic=True)
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002512FDD98A0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000002512FB1B7E0>, deterministic=True) completed
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002512FDD98A0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000002512FDD98A0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD9C0>, 'PRAGMA read_uncommitted', [])
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD9C0>, 'PRAGMA read_uncommitted', []) completed
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDD9C0>)
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDD9C0>) completed
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD9C0>)
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD9C0>) completed
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,363 | DEBUG    | aiosqlite | operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,363 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-06-16 21:32:13,363 | INFO     | sqlalchemy.engine.Engine | BEGIN (implicit)
+2026-06-16 21:32:13,364 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2026-06-16 21:32:13,364 | INFO     | sqlalchemy.engine.Engine | PRAGMA main.table_info("users")
+2026-06-16 21:32:13,364 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-16 21:32:13,364 | INFO     | sqlalchemy.engine.Engine | [raw sql] ()
+2026-06-16 21:32:13,364 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,364 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,364 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDAC0>, 'PRAGMA main.table_info("users")', ())
+2026-06-16 21:32:13,364 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDAC0>, 'PRAGMA main.table_info("users")', ()) completed
+2026-06-16 21:32:13,364 | DEBUG    | aiosqlite | executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDDAC0>)
+2026-06-16 21:32:13,364 | DEBUG    | aiosqlite | operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDDAC0>) completed
+2026-06-16 21:32:13,364 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDAC0>)
+2026-06-16 21:32:13,364 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDAC0>) completed
+2026-06-16 21:32:13,364 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("users")
+2026-06-16 21:32:13,364 | INFO     | sqlalchemy.engine.Engine | PRAGMA temp.table_info("users")
+2026-06-16 21:32:13,364 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-16 21:32:13,364 | INFO     | sqlalchemy.engine.Engine | [raw sql] ()
+2026-06-16 21:32:13,364 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,364 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,364 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD2C0>, 'PRAGMA temp.table_info("users")', ())
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD2C0>, 'PRAGMA temp.table_info("users")', ()) completed
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDD2C0>)
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDD2C0>) completed
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD2C0>)
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD2C0>) completed
+2026-06-16 21:32:13,365 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("investigations")
+2026-06-16 21:32:13,365 | INFO     | sqlalchemy.engine.Engine | PRAGMA main.table_info("investigations")
+2026-06-16 21:32:13,365 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-16 21:32:13,365 | INFO     | sqlalchemy.engine.Engine | [raw sql] ()
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDBC0>, 'PRAGMA main.table_info("investigations")', ())
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDBC0>, 'PRAGMA main.table_info("investigations")', ()) completed
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDDBC0>)
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDDBC0>) completed
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDBC0>)
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDBC0>) completed
+2026-06-16 21:32:13,365 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("investigations")
+2026-06-16 21:32:13,365 | INFO     | sqlalchemy.engine.Engine | PRAGMA temp.table_info("investigations")
+2026-06-16 21:32:13,365 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-16 21:32:13,365 | INFO     | sqlalchemy.engine.Engine | [raw sql] ()
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD940>, 'PRAGMA temp.table_info("investigations")', ())
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD940>, 'PRAGMA temp.table_info("investigations")', ()) completed
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDD940>)
+2026-06-16 21:32:13,365 | DEBUG    | aiosqlite | operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDD940>) completed
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD940>)
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD940>) completed
+2026-06-16 21:32:13,366 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("evidence")
+2026-06-16 21:32:13,366 | INFO     | sqlalchemy.engine.Engine | PRAGMA main.table_info("evidence")
+2026-06-16 21:32:13,366 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-16 21:32:13,366 | INFO     | sqlalchemy.engine.Engine | [raw sql] ()
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDB40>, 'PRAGMA main.table_info("evidence")', ())
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDB40>, 'PRAGMA main.table_info("evidence")', ()) completed
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDDB40>)
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDDB40>) completed
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDB40>)
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDB40>) completed
+2026-06-16 21:32:13,366 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("evidence")
+2026-06-16 21:32:13,366 | INFO     | sqlalchemy.engine.Engine | PRAGMA temp.table_info("evidence")
+2026-06-16 21:32:13,366 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-16 21:32:13,366 | INFO     | sqlalchemy.engine.Engine | [raw sql] ()
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDC40>, 'PRAGMA temp.table_info("evidence")', ())
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDC40>, 'PRAGMA temp.table_info("evidence")', ()) completed
+2026-06-16 21:32:13,366 | DEBUG    | aiosqlite | executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDDC40>)
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDDC40>) completed
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDC40>)
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDC40>) completed
+2026-06-16 21:32:13,367 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("analysis_jobs")
+2026-06-16 21:32:13,367 | INFO     | sqlalchemy.engine.Engine | PRAGMA main.table_info("analysis_jobs")
+2026-06-16 21:32:13,367 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-16 21:32:13,367 | INFO     | sqlalchemy.engine.Engine | [raw sql] ()
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD2C0>, 'PRAGMA main.table_info("analysis_jobs")', ())
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD2C0>, 'PRAGMA main.table_info("analysis_jobs")', ()) completed
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDD2C0>)
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDD2C0>) completed
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD2C0>)
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD2C0>) completed
+2026-06-16 21:32:13,367 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("analysis_jobs")
+2026-06-16 21:32:13,367 | INFO     | sqlalchemy.engine.Engine | PRAGMA temp.table_info("analysis_jobs")
+2026-06-16 21:32:13,367 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-16 21:32:13,367 | INFO     | sqlalchemy.engine.Engine | [raw sql] ()
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD940>, 'PRAGMA temp.table_info("analysis_jobs")', ())
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD940>, 'PRAGMA temp.table_info("analysis_jobs")', ()) completed
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDD940>)
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDD940>) completed
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD940>)
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD940>) completed
+2026-06-16 21:32:13,367 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("analysis_results")
+2026-06-16 21:32:13,367 | INFO     | sqlalchemy.engine.Engine | PRAGMA main.table_info("analysis_results")
+2026-06-16 21:32:13,367 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-16 21:32:13,367 | INFO     | sqlalchemy.engine.Engine | [raw sql] ()
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDFCC0>, 'PRAGMA main.table_info("analysis_results")', ())
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDFCC0>, 'PRAGMA main.table_info("analysis_results")', ()) completed
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDFCC0>)
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDFCC0>) completed
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDFCC0>)
+2026-06-16 21:32:13,367 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDFCC0>) completed
+2026-06-16 21:32:13,368 INFO sqlalchemy.engine.Engine PRAGMA temp.table_info("analysis_results")
+2026-06-16 21:32:13,368 | INFO     | sqlalchemy.engine.Engine | PRAGMA temp.table_info("analysis_results")
+2026-06-16 21:32:13,368 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-06-16 21:32:13,368 | INFO     | sqlalchemy.engine.Engine | [raw sql] ()
+2026-06-16 21:32:13,368 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,368 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,368 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDFE40>, 'PRAGMA temp.table_info("analysis_results")', ())
+2026-06-16 21:32:13,368 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDFE40>, 'PRAGMA temp.table_info("analysis_results")', ()) completed
+2026-06-16 21:32:13,368 | DEBUG    | aiosqlite | executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDFE40>)
+2026-06-16 21:32:13,368 | DEBUG    | aiosqlite | operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000002512FDDFE40>) completed
+2026-06-16 21:32:13,368 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDFE40>)
+2026-06-16 21:32:13,368 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDFE40>) completed
+2026-06-16 21:32:13,369 INFO sqlalchemy.engine.Engine 
+CREATE TABLE users (
+	id VARCHAR NOT NULL, 
+	email VARCHAR(255) NOT NULL, 
+	full_name VARCHAR(255) NOT NULL, 
+	hashed_password VARCHAR(255) NOT NULL, 
+	avatar_url VARCHAR(500), 
+	organization VARCHAR(255), 
+	role VARCHAR(50) NOT NULL, 
+	is_active BOOLEAN NOT NULL, 
+	is_verified BOOLEAN NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+2026-06-16 21:32:13,369 | INFO     | sqlalchemy.engine.Engine | 
+CREATE TABLE users (
+	id VARCHAR NOT NULL, 
+	email VARCHAR(255) NOT NULL, 
+	full_name VARCHAR(255) NOT NULL, 
+	hashed_password VARCHAR(255) NOT NULL, 
+	avatar_url VARCHAR(500), 
+	organization VARCHAR(255), 
+	role VARCHAR(50) NOT NULL, 
+	is_active BOOLEAN NOT NULL, 
+	is_verified BOOLEAN NOT NULL, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+2026-06-16 21:32:13,369 INFO sqlalchemy.engine.Engine [no key 0.00009s] ()
+2026-06-16 21:32:13,369 | INFO     | sqlalchemy.engine.Engine | [no key 0.00009s] ()
+2026-06-16 21:32:13,369 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,369 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,369 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD8C0>, '\nCREATE TABLE users (\n\tid VARCHAR NOT NULL, \n\temail VARCHAR(255) NOT NULL, \n\tfull_name VARCHAR(255) NOT NULL, \n\thashed_password VARCHAR(255) NOT NULL, \n\tavatar_url VARCHAR(500), \n\torganization VARCHAR(255), \n\trole VARCHAR(50) NOT NULL, \n\tis_active BOOLEAN NOT NULL, \n\tis_verified BOOLEAN NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tPRIMARY KEY (id)\n)\n\n', ())
+2026-06-16 21:32:13,375 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD8C0>, '\nCREATE TABLE users (\n\tid VARCHAR NOT NULL, \n\temail VARCHAR(255) NOT NULL, \n\tfull_name VARCHAR(255) NOT NULL, \n\thashed_password VARCHAR(255) NOT NULL, \n\tavatar_url VARCHAR(500), \n\torganization VARCHAR(255), \n\trole VARCHAR(50) NOT NULL, \n\tis_active BOOLEAN NOT NULL, \n\tis_verified BOOLEAN NOT NULL, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tPRIMARY KEY (id)\n)\n\n', ()) completed
+2026-06-16 21:32:13,375 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD8C0>)
+2026-06-16 21:32:13,375 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD8C0>) completed
+2026-06-16 21:32:13,375 INFO sqlalchemy.engine.Engine CREATE UNIQUE INDEX ix_users_email ON users (email)
+2026-06-16 21:32:13,375 | INFO     | sqlalchemy.engine.Engine | CREATE UNIQUE INDEX ix_users_email ON users (email)
+2026-06-16 21:32:13,375 INFO sqlalchemy.engine.Engine [no key 0.00009s] ()
+2026-06-16 21:32:13,375 | INFO     | sqlalchemy.engine.Engine | [no key 0.00009s] ()
+2026-06-16 21:32:13,375 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,375 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,375 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDEC0>, 'CREATE UNIQUE INDEX ix_users_email ON users (email)', ())
+2026-06-16 21:32:13,379 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDEC0>, 'CREATE UNIQUE INDEX ix_users_email ON users (email)', ()) completed
+2026-06-16 21:32:13,379 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDEC0>)
+2026-06-16 21:32:13,379 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDEC0>) completed
+2026-06-16 21:32:13,379 INFO sqlalchemy.engine.Engine 
+CREATE TABLE evidence (
+	id VARCHAR NOT NULL, 
+	investigation_id VARCHAR NOT NULL, 
+	user_id VARCHAR NOT NULL, 
+	filename VARCHAR(500) NOT NULL, 
+	original_filename VARCHAR(500) NOT NULL, 
+	file_size INTEGER NOT NULL, 
+	mime_type VARCHAR(100) NOT NULL, 
+	storage_path VARCHAR(1000) NOT NULL, 
+	duration_seconds FLOAT, 
+	fps FLOAT, 
+	width INTEGER, 
+	height INTEGER, 
+	status VARCHAR(50) NOT NULL, 
+	analysis_job_id VARCHAR, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(investigation_id) REFERENCES investigations (id) ON DELETE CASCADE, 
+	FOREIGN KEY(user_id) REFERENCES users (id), 
+	FOREIGN KEY(analysis_job_id) REFERENCES analysis_jobs (id)
+)
+
+
+2026-06-16 21:32:13,379 | INFO     | sqlalchemy.engine.Engine | 
+CREATE TABLE evidence (
+	id VARCHAR NOT NULL, 
+	investigation_id VARCHAR NOT NULL, 
+	user_id VARCHAR NOT NULL, 
+	filename VARCHAR(500) NOT NULL, 
+	original_filename VARCHAR(500) NOT NULL, 
+	file_size INTEGER NOT NULL, 
+	mime_type VARCHAR(100) NOT NULL, 
+	storage_path VARCHAR(1000) NOT NULL, 
+	duration_seconds FLOAT, 
+	fps FLOAT, 
+	width INTEGER, 
+	height INTEGER, 
+	status VARCHAR(50) NOT NULL, 
+	analysis_job_id VARCHAR, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(investigation_id) REFERENCES investigations (id) ON DELETE CASCADE, 
+	FOREIGN KEY(user_id) REFERENCES users (id), 
+	FOREIGN KEY(analysis_job_id) REFERENCES analysis_jobs (id)
+)
+
+
+2026-06-16 21:32:13,379 INFO sqlalchemy.engine.Engine [no key 0.00007s] ()
+2026-06-16 21:32:13,379 | INFO     | sqlalchemy.engine.Engine | [no key 0.00007s] ()
+2026-06-16 21:32:13,379 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,379 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,380 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDBC0>, '\nCREATE TABLE evidence (\n\tid VARCHAR NOT NULL, \n\tinvestigation_id VARCHAR NOT NULL, \n\tuser_id VARCHAR NOT NULL, \n\tfilename VARCHAR(500) NOT NULL, \n\toriginal_filename VARCHAR(500) NOT NULL, \n\tfile_size INTEGER NOT NULL, \n\tmime_type VARCHAR(100) NOT NULL, \n\tstorage_path VARCHAR(1000) NOT NULL, \n\tduration_seconds FLOAT, \n\tfps FLOAT, \n\twidth INTEGER, \n\theight INTEGER, \n\tstatus VARCHAR(50) NOT NULL, \n\tanalysis_job_id VARCHAR, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(investigation_id) REFERENCES investigations (id) ON DELETE CASCADE, \n\tFOREIGN KEY(user_id) REFERENCES users (id), \n\tFOREIGN KEY(analysis_job_id) REFERENCES analysis_jobs (id)\n)\n\n', ())
+2026-06-16 21:32:13,383 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDBC0>, '\nCREATE TABLE evidence (\n\tid VARCHAR NOT NULL, \n\tinvestigation_id VARCHAR NOT NULL, \n\tuser_id VARCHAR NOT NULL, \n\tfilename VARCHAR(500) NOT NULL, \n\toriginal_filename VARCHAR(500) NOT NULL, \n\tfile_size INTEGER NOT NULL, \n\tmime_type VARCHAR(100) NOT NULL, \n\tstorage_path VARCHAR(1000) NOT NULL, \n\tduration_seconds FLOAT, \n\tfps FLOAT, \n\twidth INTEGER, \n\theight INTEGER, \n\tstatus VARCHAR(50) NOT NULL, \n\tanalysis_job_id VARCHAR, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(investigation_id) REFERENCES investigations (id) ON DELETE CASCADE, \n\tFOREIGN KEY(user_id) REFERENCES users (id), \n\tFOREIGN KEY(analysis_job_id) REFERENCES analysis_jobs (id)\n)\n\n', ()) completed
+2026-06-16 21:32:13,383 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDBC0>)
+2026-06-16 21:32:13,383 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDBC0>) completed
+2026-06-16 21:32:13,383 INFO sqlalchemy.engine.Engine CREATE INDEX ix_evidence_investigation_id ON evidence (investigation_id)
+2026-06-16 21:32:13,383 | INFO     | sqlalchemy.engine.Engine | CREATE INDEX ix_evidence_investigation_id ON evidence (investigation_id)
+2026-06-16 21:32:13,383 INFO sqlalchemy.engine.Engine [no key 0.00006s] ()
+2026-06-16 21:32:13,383 | INFO     | sqlalchemy.engine.Engine | [no key 0.00006s] ()
+2026-06-16 21:32:13,383 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,383 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,383 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDFCC0>, 'CREATE INDEX ix_evidence_investigation_id ON evidence (investigation_id)', ())
+2026-06-16 21:32:13,387 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDFCC0>, 'CREATE INDEX ix_evidence_investigation_id ON evidence (investigation_id)', ()) completed
+2026-06-16 21:32:13,387 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDFCC0>)
+2026-06-16 21:32:13,387 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDFCC0>) completed
+2026-06-16 21:32:13,388 INFO sqlalchemy.engine.Engine 
+CREATE TABLE analysis_jobs (
+	id VARCHAR NOT NULL, 
+	evidence_id VARCHAR NOT NULL, 
+	investigation_id VARCHAR NOT NULL, 
+	user_id VARCHAR NOT NULL, 
+	status VARCHAR(50) NOT NULL, 
+	progress INTEGER NOT NULL, 
+	current_stage VARCHAR(100), 
+	error_message TEXT, 
+	started_at DATETIME, 
+	completed_at DATETIME, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(evidence_id) REFERENCES evidence (id) ON DELETE CASCADE, 
+	FOREIGN KEY(investigation_id) REFERENCES investigations (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2026-06-16 21:32:13,388 | INFO     | sqlalchemy.engine.Engine | 
+CREATE TABLE analysis_jobs (
+	id VARCHAR NOT NULL, 
+	evidence_id VARCHAR NOT NULL, 
+	investigation_id VARCHAR NOT NULL, 
+	user_id VARCHAR NOT NULL, 
+	status VARCHAR(50) NOT NULL, 
+	progress INTEGER NOT NULL, 
+	current_stage VARCHAR(100), 
+	error_message TEXT, 
+	started_at DATETIME, 
+	completed_at DATETIME, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(evidence_id) REFERENCES evidence (id) ON DELETE CASCADE, 
+	FOREIGN KEY(investigation_id) REFERENCES investigations (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2026-06-16 21:32:13,388 INFO sqlalchemy.engine.Engine [no key 0.00009s] ()
+2026-06-16 21:32:13,388 | INFO     | sqlalchemy.engine.Engine | [no key 0.00009s] ()
+2026-06-16 21:32:13,388 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,388 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,388 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDFE40>, '\nCREATE TABLE analysis_jobs (\n\tid VARCHAR NOT NULL, \n\tevidence_id VARCHAR NOT NULL, \n\tinvestigation_id VARCHAR NOT NULL, \n\tuser_id VARCHAR NOT NULL, \n\tstatus VARCHAR(50) NOT NULL, \n\tprogress INTEGER NOT NULL, \n\tcurrent_stage VARCHAR(100), \n\terror_message TEXT, \n\tstarted_at DATETIME, \n\tcompleted_at DATETIME, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(evidence_id) REFERENCES evidence (id) ON DELETE CASCADE, \n\tFOREIGN KEY(investigation_id) REFERENCES investigations (id), \n\tFOREIGN KEY(user_id) REFERENCES users (id)\n)\n\n', ())
+2026-06-16 21:32:13,398 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDFE40>, '\nCREATE TABLE analysis_jobs (\n\tid VARCHAR NOT NULL, \n\tevidence_id VARCHAR NOT NULL, \n\tinvestigation_id VARCHAR NOT NULL, \n\tuser_id VARCHAR NOT NULL, \n\tstatus VARCHAR(50) NOT NULL, \n\tprogress INTEGER NOT NULL, \n\tcurrent_stage VARCHAR(100), \n\terror_message TEXT, \n\tstarted_at DATETIME, \n\tcompleted_at DATETIME, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(evidence_id) REFERENCES evidence (id) ON DELETE CASCADE, \n\tFOREIGN KEY(investigation_id) REFERENCES investigations (id), \n\tFOREIGN KEY(user_id) REFERENCES users (id)\n)\n\n', ()) completed
+2026-06-16 21:32:13,398 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDFE40>)
+2026-06-16 21:32:13,398 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDFE40>) completed
+2026-06-16 21:32:13,398 INFO sqlalchemy.engine.Engine CREATE INDEX ix_analysis_jobs_evidence_id ON analysis_jobs (evidence_id)
+2026-06-16 21:32:13,398 | INFO     | sqlalchemy.engine.Engine | CREATE INDEX ix_analysis_jobs_evidence_id ON analysis_jobs (evidence_id)
+2026-06-16 21:32:13,398 INFO sqlalchemy.engine.Engine [no key 0.00006s] ()
+2026-06-16 21:32:13,398 | INFO     | sqlalchemy.engine.Engine | [no key 0.00006s] ()
+2026-06-16 21:32:13,398 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,398 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,398 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDF0C0>, 'CREATE INDEX ix_analysis_jobs_evidence_id ON analysis_jobs (evidence_id)', ())
+2026-06-16 21:32:13,402 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDF0C0>, 'CREATE INDEX ix_analysis_jobs_evidence_id ON analysis_jobs (evidence_id)', ()) completed
+2026-06-16 21:32:13,402 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDF0C0>)
+2026-06-16 21:32:13,402 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDF0C0>) completed
+2026-06-16 21:32:13,402 INFO sqlalchemy.engine.Engine 
+CREATE TABLE investigations (
+	id VARCHAR NOT NULL, 
+	user_id VARCHAR NOT NULL, 
+	title VARCHAR(500) NOT NULL, 
+	description TEXT, 
+	status VARCHAR(50) NOT NULL, 
+	priority VARCHAR(20) NOT NULL, 
+	incident_score FLOAT, 
+	case_number VARCHAR(100), 
+	tags JSON, 
+	metadata JSON, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	closed_at DATETIME, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id) ON DELETE CASCADE, 
+	UNIQUE (case_number)
+)
+
+
+2026-06-16 21:32:13,402 | INFO     | sqlalchemy.engine.Engine | 
+CREATE TABLE investigations (
+	id VARCHAR NOT NULL, 
+	user_id VARCHAR NOT NULL, 
+	title VARCHAR(500) NOT NULL, 
+	description TEXT, 
+	status VARCHAR(50) NOT NULL, 
+	priority VARCHAR(20) NOT NULL, 
+	incident_score FLOAT, 
+	case_number VARCHAR(100), 
+	tags JSON, 
+	metadata JSON, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	updated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	closed_at DATETIME, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id) ON DELETE CASCADE, 
+	UNIQUE (case_number)
+)
+
+
+2026-06-16 21:32:13,402 INFO sqlalchemy.engine.Engine [no key 0.00013s] ()
+2026-06-16 21:32:13,402 | INFO     | sqlalchemy.engine.Engine | [no key 0.00013s] ()
+2026-06-16 21:32:13,402 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,402 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,403 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDF340>, '\nCREATE TABLE investigations (\n\tid VARCHAR NOT NULL, \n\tuser_id VARCHAR NOT NULL, \n\ttitle VARCHAR(500) NOT NULL, \n\tdescription TEXT, \n\tstatus VARCHAR(50) NOT NULL, \n\tpriority VARCHAR(20) NOT NULL, \n\tincident_score FLOAT, \n\tcase_number VARCHAR(100), \n\ttags JSON, \n\tmetadata JSON, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tclosed_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(user_id) REFERENCES users (id) ON DELETE CASCADE, \n\tUNIQUE (case_number)\n)\n\n', ())
+2026-06-16 21:32:13,406 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDF340>, '\nCREATE TABLE investigations (\n\tid VARCHAR NOT NULL, \n\tuser_id VARCHAR NOT NULL, \n\ttitle VARCHAR(500) NOT NULL, \n\tdescription TEXT, \n\tstatus VARCHAR(50) NOT NULL, \n\tpriority VARCHAR(20) NOT NULL, \n\tincident_score FLOAT, \n\tcase_number VARCHAR(100), \n\ttags JSON, \n\tmetadata JSON, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tupdated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tclosed_at DATETIME, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(user_id) REFERENCES users (id) ON DELETE CASCADE, \n\tUNIQUE (case_number)\n)\n\n', ()) completed
+2026-06-16 21:32:13,406 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDF340>)
+2026-06-16 21:32:13,406 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDF340>) completed
+2026-06-16 21:32:13,406 INFO sqlalchemy.engine.Engine CREATE INDEX ix_investigations_user_id ON investigations (user_id)
+2026-06-16 21:32:13,406 | INFO     | sqlalchemy.engine.Engine | CREATE INDEX ix_investigations_user_id ON investigations (user_id)
+2026-06-16 21:32:13,406 INFO sqlalchemy.engine.Engine [no key 0.00007s] ()
+2026-06-16 21:32:13,406 | INFO     | sqlalchemy.engine.Engine | [no key 0.00007s] ()
+2026-06-16 21:32:13,406 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,406 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,406 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDB40>, 'CREATE INDEX ix_investigations_user_id ON investigations (user_id)', ())
+2026-06-16 21:32:13,410 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDB40>, 'CREATE INDEX ix_investigations_user_id ON investigations (user_id)', ()) completed
+2026-06-16 21:32:13,410 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDB40>)
+2026-06-16 21:32:13,410 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDB40>) completed
+2026-06-16 21:32:13,410 INFO sqlalchemy.engine.Engine 
+CREATE TABLE analysis_results (
+	id VARCHAR NOT NULL, 
+	job_id VARCHAR NOT NULL, 
+	evidence_id VARCHAR NOT NULL, 
+	investigation_id VARCHAR NOT NULL, 
+	incident_score FLOAT, 
+	risk_level VARCHAR(20), 
+	person_count INTEGER NOT NULL, 
+	vehicle_count INTEGER NOT NULL, 
+	object_count INTEGER NOT NULL, 
+	anomaly_count INTEGER NOT NULL, 
+	detections JSON, 
+	tracking JSON, 
+	timeline JSON, 
+	transcription JSON, 
+	audio_events JSON, 
+	anomalies JSON, 
+	reasoning JSON, 
+	evidence_graph JSON, 
+	executive_brief TEXT, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(job_id) REFERENCES analysis_jobs (id) ON DELETE CASCADE, 
+	FOREIGN KEY(evidence_id) REFERENCES evidence (id), 
+	FOREIGN KEY(investigation_id) REFERENCES investigations (id)
+)
+
+
+2026-06-16 21:32:13,410 | INFO     | sqlalchemy.engine.Engine | 
+CREATE TABLE analysis_results (
+	id VARCHAR NOT NULL, 
+	job_id VARCHAR NOT NULL, 
+	evidence_id VARCHAR NOT NULL, 
+	investigation_id VARCHAR NOT NULL, 
+	incident_score FLOAT, 
+	risk_level VARCHAR(20), 
+	person_count INTEGER NOT NULL, 
+	vehicle_count INTEGER NOT NULL, 
+	object_count INTEGER NOT NULL, 
+	anomaly_count INTEGER NOT NULL, 
+	detections JSON, 
+	tracking JSON, 
+	timeline JSON, 
+	transcription JSON, 
+	audio_events JSON, 
+	anomalies JSON, 
+	reasoning JSON, 
+	evidence_graph JSON, 
+	executive_brief TEXT, 
+	created_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(job_id) REFERENCES analysis_jobs (id) ON DELETE CASCADE, 
+	FOREIGN KEY(evidence_id) REFERENCES evidence (id), 
+	FOREIGN KEY(investigation_id) REFERENCES investigations (id)
+)
+
+
+2026-06-16 21:32:13,410 INFO sqlalchemy.engine.Engine [no key 0.00009s] ()
+2026-06-16 21:32:13,410 | INFO     | sqlalchemy.engine.Engine | [no key 0.00009s] ()
+2026-06-16 21:32:13,410 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,410 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,410 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD440>, '\nCREATE TABLE analysis_results (\n\tid VARCHAR NOT NULL, \n\tjob_id VARCHAR NOT NULL, \n\tevidence_id VARCHAR NOT NULL, \n\tinvestigation_id VARCHAR NOT NULL, \n\tincident_score FLOAT, \n\trisk_level VARCHAR(20), \n\tperson_count INTEGER NOT NULL, \n\tvehicle_count INTEGER NOT NULL, \n\tobject_count INTEGER NOT NULL, \n\tanomaly_count INTEGER NOT NULL, \n\tdetections JSON, \n\ttracking JSON, \n\ttimeline JSON, \n\ttranscription JSON, \n\taudio_events JSON, \n\tanomalies JSON, \n\treasoning JSON, \n\tevidence_graph JSON, \n\texecutive_brief TEXT, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(job_id) REFERENCES analysis_jobs (id) ON DELETE CASCADE, \n\tFOREIGN KEY(evidence_id) REFERENCES evidence (id), \n\tFOREIGN KEY(investigation_id) REFERENCES investigations (id)\n)\n\n', ())
+2026-06-16 21:32:13,414 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDD440>, '\nCREATE TABLE analysis_results (\n\tid VARCHAR NOT NULL, \n\tjob_id VARCHAR NOT NULL, \n\tevidence_id VARCHAR NOT NULL, \n\tinvestigation_id VARCHAR NOT NULL, \n\tincident_score FLOAT, \n\trisk_level VARCHAR(20), \n\tperson_count INTEGER NOT NULL, \n\tvehicle_count INTEGER NOT NULL, \n\tobject_count INTEGER NOT NULL, \n\tanomaly_count INTEGER NOT NULL, \n\tdetections JSON, \n\ttracking JSON, \n\ttimeline JSON, \n\ttranscription JSON, \n\taudio_events JSON, \n\tanomalies JSON, \n\treasoning JSON, \n\tevidence_graph JSON, \n\texecutive_brief TEXT, \n\tcreated_at DATETIME DEFAULT (CURRENT_TIMESTAMP) NOT NULL, \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(job_id) REFERENCES analysis_jobs (id) ON DELETE CASCADE, \n\tFOREIGN KEY(evidence_id) REFERENCES evidence (id), \n\tFOREIGN KEY(investigation_id) REFERENCES investigations (id)\n)\n\n', ()) completed
+2026-06-16 21:32:13,414 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD440>)
+2026-06-16 21:32:13,414 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDD440>) completed
+2026-06-16 21:32:13,414 INFO sqlalchemy.engine.Engine CREATE UNIQUE INDEX ix_analysis_results_job_id ON analysis_results (job_id)
+2026-06-16 21:32:13,414 | INFO     | sqlalchemy.engine.Engine | CREATE UNIQUE INDEX ix_analysis_results_job_id ON analysis_results (job_id)
+2026-06-16 21:32:13,414 INFO sqlalchemy.engine.Engine [no key 0.00008s] ()
+2026-06-16 21:32:13,414 | INFO     | sqlalchemy.engine.Engine | [no key 0.00008s] ()
+2026-06-16 21:32:13,414 | DEBUG    | aiosqlite | executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,414 | DEBUG    | aiosqlite | operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,414 | DEBUG    | aiosqlite | executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDB40>, 'CREATE UNIQUE INDEX ix_analysis_results_job_id ON analysis_results (job_id)', ())
+2026-06-16 21:32:13,418 | DEBUG    | aiosqlite | operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000002512FDDDB40>, 'CREATE UNIQUE INDEX ix_analysis_results_job_id ON analysis_results (job_id)', ()) completed
+2026-06-16 21:32:13,418 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDB40>)
+2026-06-16 21:32:13,418 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000002512FDDDB40>) completed
+2026-06-16 21:32:13,418 INFO sqlalchemy.engine.Engine COMMIT
+2026-06-16 21:32:13,418 | INFO     | sqlalchemy.engine.Engine | COMMIT
+2026-06-16 21:32:13,418 | DEBUG    | aiosqlite | executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,418 | DEBUG    | aiosqlite | operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,418 | DEBUG    | aiosqlite | executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,418 | DEBUG    | aiosqlite | operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,418 | DEBUG    | aiosqlite | executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000002512FDD98A0>)
+2026-06-16 21:32:13,419 | DEBUG    | aiosqlite | operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000002512FDD98A0>) completed
+2026-06-16 21:32:13,419 | INFO     | main | SQLite tables created/verified
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'api\v1\dashboard.py'. Reloading...

@@ -1,0 +1,54 @@
+[
+  {
+    "file": "24333-341474163_small.mp4",
+    "ok": true,
+    "elapsed_s": 58.5,
+    "incident_score": 75.0,
+    "risk_level": "critical",
+    "person_count": 16,
+    "vehicle_count": 222,
+    "anomaly_count": 5,
+    "duration_s": 18.066666666666666,
+    "max_progress": 92,
+    "stages_seen": 13
+  },
+  {
+    "file": "424-136184216.mp4",
+    "ok": true,
+    "elapsed_s": 48.6,
+    "incident_score": 16.2,
+    "risk_level": "low",
+    "person_count": 1,
+    "vehicle_count": 59,
+    "anomaly_count": 1,
+    "duration_s": 11.0,
+    "max_progress": 92,
+    "stages_seen": 14
+  },
+  {
+    "file": "People Walking Free Stock Footage, Royalty-Free No Copyright Content (1).mp4",
+    "ok": true,
+    "elapsed_s": 200.0,
+    "incident_score": 75.0,
+    "risk_level": "critical",
+    "person_count": 233,
+    "vehicle_count": 42,
+    "anomaly_count": 40,
+    "duration_s": 116.54976666666667,
+    "max_progress": 92,
+    "stages_seen": 22
+  },
+  {
+    "file": "What Languages Sound Like to Foreigners.mp4",
+    "ok": true,
+    "elapsed_s": 323.6,
+    "incident_score": 44.0,
+    "risk_level": "medium",
+    "person_count": 1,
+    "vehicle_count": 0,
+    "anomaly_count": 5,
+    "duration_s": 96.43333333333334,
+    "max_progress": 92,
+    "stages_seen": 28
+  }
+]
