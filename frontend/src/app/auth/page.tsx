@@ -257,8 +257,8 @@ function AuthPageContent() {
             ))}
           </div>
           <p className="text-sm leading-relaxed mb-3" style={{ color: "var(--text-muted)" }}>
-            "InsightX AI reduced our incident review time from 4 hours to under 12 minutes. The AI reasoning
-            engine is exceptionally accurate."
+            &ldquo;InsightX AI reduced our incident review time from 4 hours to under 12 minutes. The AI reasoning
+            engine is exceptionally accurate.&rdquo;
           </p>
           <div className="flex items-center gap-2.5">
             <div className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold"

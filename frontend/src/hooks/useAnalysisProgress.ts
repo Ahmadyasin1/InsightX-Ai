@@ -3,6 +3,7 @@
 import { useEffect, useState, useRef, useCallback } from "react";
 import { api } from "@/lib/api";
 import { getAuthToken } from "@/lib/auth-token";
+import { getClientWsBase } from "@/lib/env";
 
 export interface AnalysisProgress {
   job_id: string;
@@ -12,13 +13,7 @@ export interface AnalysisProgress {
   updated_at?: string;
 }
 
-const WS_BASE =
-  typeof window !== "undefined"
-    ? (process.env.NEXT_PUBLIC_WS_URL ||
-        (process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000")
-          .replace(/^https/, "wss")
-          .replace(/^http/, "ws"))
-    : "ws://localhost:8000";
+const WS_BASE = getClientWsBase();
 
 async function resolveAuthToken(): Promise<string | null> {
   return getAuthToken();
@@ -85,7 +80,7 @@ export function useAnalysisProgress(jobId: string | null | undefined) {
 
     (async () => {
       const token = await resolveAuthToken();
-      if (cancelled || !token) return;
+      if (cancelled || !token || !WS_BASE) return;
 
       const url = `${WS_BASE}/api/v1/analysis/ws/${jobId}?token=${encodeURIComponent(token)}`;
       const ws = new WebSocket(url);

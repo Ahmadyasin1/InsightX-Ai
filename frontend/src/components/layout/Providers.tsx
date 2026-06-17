@@ -5,6 +5,7 @@ import { ThemeProvider } from "next-themes";
 import { useState } from "react";
 import { Toaster } from "react-hot-toast";
 import { AuthSessionProvider } from "@/components/auth/AuthSessionProvider";
+import { DeploymentBanner } from "@/components/layout/DeploymentBanner";
 
 export function Providers({ children }: { children: React.ReactNode }) {
   const [queryClient] = useState(
@@ -29,6 +30,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
       <QueryClientProvider client={queryClient}>
         <AuthSessionProvider>
           {children}
+          <DeploymentBanner />
         </AuthSessionProvider>
         <Toaster
             position="top-right"

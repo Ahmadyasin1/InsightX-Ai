@@ -2,10 +2,9 @@ import axios, { AxiosError } from "axios";
 import { useAuthStore } from "@/store/auth";
 import { supabase, isSupabaseEnabled } from "@/lib/supabase";
 import { getAuthToken } from "@/lib/auth-token";
+import { getClientApiBase } from "@/lib/env";
 
-const BASE_URL =
-  process.env.NEXT_PUBLIC_API_URL ||
-  (typeof window !== "undefined" ? "" : "http://localhost:8000");
+const BASE_URL = getClientApiBase();
 
 export const api = axios.create({
   baseURL: BASE_URL,
